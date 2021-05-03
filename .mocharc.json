@@ -1,0 +1,7 @@
+{
+
+  "reporter": "spec",
+  "package": "./package.json",
+  "file": ["./spec/checkout.spec.js"]
+
+}

@@ -1,0 +1,19 @@
+{
+  "name": "checkout-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf coverage",
+    "test": "npm run clean && npm run test:coverage",
+    "test:coverage": "mocha --config=./.mocharc.json --exit"
+  },
+  "author": "Ashoka",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "rimraf": "3.0.2"
+  }
+}
